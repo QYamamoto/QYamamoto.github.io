@@ -354,8 +354,8 @@
         SubmitResults();
         if (score <= 49) return "疫严丁真  鉴定为: 没码";
         if (score <= 99) return "移岩丁真  鉴定为: 愚"
-        if (score <= 149) retVal += '狱友丁真  鉴定为: 乐';
-        if (score <= 199) retVal += '野鸦丁真  鉴定为: 没有瓶颈';
+        if (score <= 149) return '狱友丁真  鉴定为: 乐';
+        if (score <= 199) return '野鸦丁真  鉴定为: 没有瓶颈';
         return "抑郁丁真  不想鉴定";
     }
 
