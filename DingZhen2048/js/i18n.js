@@ -8,7 +8,7 @@
 
 var Localizer = (function(lang) {
 	var defaultMsgs = {
-		intro : 'Join the DingZhens and try to get the OriginalDingZhen tile!',
+		intro : 'Join the DingZhens and try to get the <strong>OriginalDingZhen</strong> tile!',
 		new_game : 'New game',
 		undo : 'Undo',
 		keep_going : 'Keep going',
